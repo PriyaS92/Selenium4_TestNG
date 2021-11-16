@@ -1,0 +1,8 @@
+package selenium4.latest;
+
+public class TablePage {
+
+	@FindBy(xpath="//li[@class='dropdown']//following::a")
+	WebElement selenium;
+	
+}

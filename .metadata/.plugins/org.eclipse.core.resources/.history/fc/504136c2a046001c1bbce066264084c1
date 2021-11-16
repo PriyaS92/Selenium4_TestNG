@@ -1,0 +1,23 @@
+package selenium4.latest;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.remote.CapabilityType;
+import org.testng.annotations.BeforeTest;
+
+public class TestSelenium {
+
+	@BeforeTest
+	public void setup(){
+		ChromeOptions option = new ChromeOptions();
+		option.setCapability(CapabilityType.BROWSER_VERSION, "95");
+		WebDriver driver = new ChromeDriver(option);
+		driver.navigate().to("http://demo.guru99.com/V1/index.php");
+	}
+	
+	@Test
+	public void loginbanking(){
+		
+	}
+}

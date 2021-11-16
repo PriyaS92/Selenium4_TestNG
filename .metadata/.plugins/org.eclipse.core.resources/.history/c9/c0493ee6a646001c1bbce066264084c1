@@ -1,0 +1,14 @@
+package selenium4.latest;
+
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+
+public class NewCustomer {
+
+	@FindBy(name="name")
+	WebElement customername;
+	@FindBy(name="dob")
+	WebElement DOB;
+	@FindBy(name="addr")
+	WebElement address;
+}
