@@ -1,0 +1,36 @@
+package selenium4.latest;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+
+public class NewCustomer {
+
+	@FindBy(name="name")
+	WebElement customername;
+	@FindBy(name="dob")
+	WebElement DOB;
+	@FindBy(name="addr")
+	WebElement address;
+	@FindBy(name="city")
+	WebElement city;
+	@FindBy(name="state")
+	WebElement state;
+	@FindBy(name="pinno")
+	WebElement Pin;		
+	@FindBy(name="telephoneno")		
+	WebElement telephone;
+	@FindBy(name="emailid")
+	WebElement mailid;		
+	@FindBy(name="sub")		
+	WebElement submit;
+	
+	public NewCustomer(WebDriver driver){
+		PageFactory.initElements(driver, this);
+	}
+	
+	public void setCustomerdetails(){
+		
+	}
+}

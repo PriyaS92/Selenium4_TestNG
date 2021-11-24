@@ -1,0 +1,11 @@
+package selenium4.latest;
+
+import org.testng.annotations.BeforeTest;
+
+public class TestSelenium {
+
+	@BeforeTest
+	public void setup(){
+		
+	}
+}
