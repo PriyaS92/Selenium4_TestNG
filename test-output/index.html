@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Selenium_4_Test_Suite">
+              <span class="suite-name border-passed">Selenium 4 Test Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Selenium_4_Test_Suite">
+                    <span>C:\Users\ktpr340\Documents\Selenium4\latest\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Selenium_4_Test_Suite">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Selenium_4_Test_Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Selenium_4_Test_Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Selenium_4_Test_Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Selenium_4_Test_Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Selenium_4_Test_Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">6 methods,   6 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Selenium_4_Test_Suite" class="hide-methods passed suite-Selenium_4_Test_Suite"> (hide)</a> <!-- hide-methods passed suite-Selenium_4_Test_Suite -->
+                      <a href="#" panel-name="suite-Selenium_4_Test_Suite" class="show-methods passed suite-Selenium_4_Test_Suite"> (show)</a> <!-- show-methods passed suite-Selenium_4_Test_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Selenium_4_Test_Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Selenium_4_Test_Suite" title="selenium4.latest.TestSelenium" hash-for-method="addnewCustomer">addnewCustomer</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Selenium_4_Test_Suite" title="selenium4.latest.TestSelenium" hash-for-method="addnewCustomer">addnewCustomer</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Selenium_4_Test_Suite" title="selenium4.latest.TestSelenium" hash-for-method="loginbanking">loginbanking</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Selenium_4_Test_Suite" title="selenium4.latest.TestSelenium" hash-for-method="loginbanking">loginbanking</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Selenium_4_Test_Suite" title="selenium4.latest.TestSelenium" hash-for-method="opentabledemoPage">opentabledemoPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Selenium_4_Test_Suite" title="selenium4.latest.TestSelenium" hash-for-method="opentabledemoPage">opentabledemoPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Selenium_4_Test_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Selenium_4_Test_Suite" class="panel Selenium_4_Test_Suite">
+          <div class="suite-Selenium_4_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">selenium4.latest.TestSelenium</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addnewCustomer">
+                  </a> <!-- addnewCustomer -->
+                  <span class="method-name">addnewCustomer</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addnewCustomer">
+                  </a> <!-- addnewCustomer -->
+                  <span class="method-name">addnewCustomer</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginbanking">
+                  </a> <!-- loginbanking -->
+                  <span class="method-name">loginbanking</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginbanking">
+                  </a> <!-- loginbanking -->
+                  <span class="method-name">loginbanking</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="opentabledemoPage">
+                  </a> <!-- opentabledemoPage -->
+                  <span class="method-name">opentabledemoPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="opentabledemoPage">
+                  </a> <!-- opentabledemoPage -->
+                  <span class="method-name">opentabledemoPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Selenium_4_Test_Suite-class-passed -->
+        </div> <!-- panel Selenium_4_Test_Suite -->
+        <div panel-name="test-xml-Selenium_4_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\ktpr340\Documents\Selenium4\latest\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;2&quot; configfailurepolicy=&quot;continue&quot; guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Selenium 4 Test Suite&quot; parallel=&quot;tests&quot;&gt;
+  &lt;test thread-count=&quot;2&quot; name=&quot;Banking Application - Chrome Browser&quot; parallel=&quot;tests&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;Chrome&quot;/&gt;
+    &lt;parameter name=&quot;browserversion&quot; value=&quot;latest&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;selenium4.latest.TestSelenium&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Banking Application - Chrome Browser --&gt;
+  &lt;test thread-count=&quot;2&quot; name=&quot;Banking Application - Edge Browser&quot; parallel=&quot;tests&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;Edge&quot;/&gt;
+    &lt;parameter name=&quot;browserversion&quot; value=&quot;95&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;selenium4.latest.TestSelenium&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Banking Application - Edge Browser --&gt;
+&lt;/suite&gt; &lt;!-- Selenium 4 Test Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Selenium_4_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Selenium 4 Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Banking Application - Chrome Browser (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Banking Application - Edge Browser (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Selenium_4_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Selenium 4 Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Selenium_4_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Selenium 4 Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Selenium_4_Test_Suite');
+function tableData_Selenium_4_Test_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(6);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'addnewCustomer')
+data.setCell(0, 2, 'selenium4.latest.TestSelenium')
+data.setCell(0, 3, 25293);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'addnewCustomer')
+data.setCell(1, 2, 'selenium4.latest.TestSelenium')
+data.setCell(1, 3, 7062);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'loginbanking')
+data.setCell(2, 2, 'selenium4.latest.TestSelenium')
+data.setCell(2, 3, 4711);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'loginbanking')
+data.setCell(3, 2, 'selenium4.latest.TestSelenium')
+data.setCell(3, 3, 3077);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'opentabledemoPage')
+data.setCell(4, 2, 'selenium4.latest.TestSelenium')
+data.setCell(4, 3, 2747);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'opentabledemoPage')
+data.setCell(5, 2, 'selenium4.latest.TestSelenium')
+data.setCell(5, 3, 2643);
+window.suiteTableData['Selenium_4_Test_Suite']= { tableData: data, tableDiv: 'times-div-Selenium_4_Test_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 45 seconds</span>
+              <div id="times-div-Selenium_4_Test_Suite">
+              </div> <!-- times-div-Selenium_4_Test_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Selenium_4_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Selenium 4 Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Selenium_4_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Selenium_4_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">selenium4.latest.TestSelenium</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">configBrowserstack</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-test before">
+                <span class="method-name">setup(latest, Chrome)</span>
+                <span class="method-start">13973 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-test before">
+                <span class="method-name">setup(95, Edge)</span>
+                <span class="method-start">13975 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">loginbanking</span>
+                <span class="method-start">32605 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">markTestStatus([TestResult name=loginbanking status=SUCCESS method=TestSelenium.loginbanking()[pri:0, instance:sele...)</span>
+                <span class="method-start">35683 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">loginbanking</span>
+                <span class="method-start">36462 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addnewCustomer</span>
+                <span class="method-start">36646 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">markTestStatus([TestResult name=loginbanking status=SUCCESS method=TestSelenium.loginbanking()[pri:0, instance:sele...)</span>
+                <span class="method-start">41175 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">addnewCustomer</span>
+                <span class="method-start">42203 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">markTestStatus([TestResult name=addnewCustomer status=SUCCESS method=TestSelenium.addnewCustomer()[pri:1, instance:...)</span>
+                <span class="method-start">49266 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">opentabledemoPage</span>
+                <span class="method-start">50218 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">markTestStatus([TestResult name=opentabledemoPage status=SUCCESS method=TestSelenium.opentabledemoPage()[pri:2, ins...)</span>
+                <span class="method-start">52862 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">53744 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-method after">
+                <span class="method-name">markTestStatus([TestResult name=addnewCustomer status=SUCCESS method=TestSelenium.addnewCustomer()[pri:1, instance:...)</span>
+                <span class="method-start">61940 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">opentabledemoPage</span>
+                <span class="method-start">62810 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">markTestStatus([TestResult name=opentabledemoPage status=SUCCESS method=TestSelenium.opentabledemoPage()[pri:2, ins...)</span>
+                <span class="method-start">65557 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">66261 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

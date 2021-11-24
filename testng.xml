@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Selenium 4 Test Suite" verbose="1" parallel="tests" thread-count="2" configfailurepolicy="continue">
+    <test name="Banking Application - Chrome Browser" annotations="JDK" preserve-order="true">
+        <parameter name="browserversion" value="latest"/>
+    	<parameter name="browser" value="Chrome"/>
+    	<classes>
+            <class name="selenium4.latest.TestSelenium"/>
+        </classes>
+    </test>
+    <test name="Banking Application - Edge Browser" annotations="JDK" preserve-order="true">
+       <parameter name="browserversion" value="95"/>
+    	<parameter name="browser" value="Edge"/>
+        <classes>
+            <class name="selenium4.latest.TestSelenium"/>
+        </classes>
+    </test>
+</suite>

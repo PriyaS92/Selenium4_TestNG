@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Selenium 4 Test Suite" duration-ms="53760" started-at="2021-11-23T10:24:05Z" finished-at="2021-11-23T10:24:59Z">
+    <groups>
+    </groups>
+    <test name="Banking Application - Edge Browser" duration-ms="43763" started-at="2021-11-23T10:24:05Z" finished-at="2021-11-23T10:24:49Z">
+      <class name="selenium4.latest.TestSelenium">
+        <test-method status="PASS" signature="configBrowserstack()[pri:0, instance:selenium4.latest.TestSelenium@61f8bee4]" name="configBrowserstack" is-config="true" duration-ms="13966" started-at="2021-11-23T10:23:51Z" finished-at="2021-11-23T10:24:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBrowserstack -->
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:selenium4.latest.TestSelenium@61f8bee4]" name="setup" is-config="true" duration-ms="22487" started-at="2021-11-23T10:24:05Z" finished-at="2021-11-23T10:24:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[95]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginbanking()[pri:0, instance:selenium4.latest.TestSelenium@61f8bee4]" name="loginbanking" duration-ms="4711" started-at="2021-11-23T10:24:27Z" finished-at="2021-11-23T10:24:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginbanking -->
+        <test-method status="PASS" signature="markTestStatus(org.testng.ITestResult)[pri:0, instance:selenium4.latest.TestSelenium@61f8bee4]" name="markTestStatus" is-config="true" duration-ms="1027" started-at="2021-11-23T10:24:32Z" finished-at="2021-11-23T10:24:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginbanking status=SUCCESS method=TestSelenium.loginbanking()[pri:0, instance:selenium4.latest.TestSelenium@61f8bee4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- markTestStatus -->
+        <test-method status="PASS" signature="addnewCustomer()[pri:1, instance:selenium4.latest.TestSelenium@61f8bee4]" name="addnewCustomer" duration-ms="7062" started-at="2021-11-23T10:24:33Z" finished-at="2021-11-23T10:24:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addnewCustomer -->
+        <test-method status="PASS" signature="markTestStatus(org.testng.ITestResult)[pri:0, instance:selenium4.latest.TestSelenium@61f8bee4]" name="markTestStatus" is-config="true" duration-ms="952" started-at="2021-11-23T10:24:40Z" finished-at="2021-11-23T10:24:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addnewCustomer status=SUCCESS method=TestSelenium.addnewCustomer()[pri:1, instance:selenium4.latest.TestSelenium@61f8bee4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- markTestStatus -->
+        <test-method status="PASS" signature="opentabledemoPage()[pri:2, instance:selenium4.latest.TestSelenium@61f8bee4]" name="opentabledemoPage" duration-ms="2643" started-at="2021-11-23T10:24:41Z" finished-at="2021-11-23T10:24:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- opentabledemoPage -->
+        <test-method status="PASS" signature="markTestStatus(org.testng.ITestResult)[pri:0, instance:selenium4.latest.TestSelenium@61f8bee4]" name="markTestStatus" is-config="true" duration-ms="882" started-at="2021-11-23T10:24:44Z" finished-at="2021-11-23T10:24:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=opentabledemoPage status=SUCCESS method=TestSelenium.opentabledemoPage()[pri:2, instance:selenium4.latest.TestSelenium@61f8bee4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- markTestStatus -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:selenium4.latest.TestSelenium@61f8bee4]" name="teardown" is-config="true" duration-ms="3990" started-at="2021-11-23T10:24:45Z" finished-at="2021-11-23T10:24:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- selenium4.latest.TestSelenium -->
+    </test> <!-- Banking Application - Edge Browser -->
+    <test name="Banking Application - Chrome Browser" duration-ms="53760" started-at="2021-11-23T10:24:05Z" finished-at="2021-11-23T10:24:59Z">
+      <class name="selenium4.latest.TestSelenium">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:selenium4.latest.TestSelenium@56235b8e]" name="setup" is-config="true" duration-ms="18608" started-at="2021-11-23T10:24:05Z" finished-at="2021-11-23T10:24:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[latest]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginbanking()[pri:0, instance:selenium4.latest.TestSelenium@56235b8e]" name="loginbanking" duration-ms="3077" started-at="2021-11-23T10:24:23Z" finished-at="2021-11-23T10:24:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginbanking -->
+        <test-method status="PASS" signature="markTestStatus(org.testng.ITestResult)[pri:0, instance:selenium4.latest.TestSelenium@56235b8e]" name="markTestStatus" is-config="true" duration-ms="962" started-at="2021-11-23T10:24:27Z" finished-at="2021-11-23T10:24:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginbanking status=SUCCESS method=TestSelenium.loginbanking()[pri:0, instance:selenium4.latest.TestSelenium@56235b8e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- markTestStatus -->
+        <test-method status="PASS" signature="addnewCustomer()[pri:1, instance:selenium4.latest.TestSelenium@56235b8e]" name="addnewCustomer" duration-ms="25293" started-at="2021-11-23T10:24:27Z" finished-at="2021-11-23T10:24:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addnewCustomer -->
+        <test-method status="PASS" signature="markTestStatus(org.testng.ITestResult)[pri:0, instance:selenium4.latest.TestSelenium@56235b8e]" name="markTestStatus" is-config="true" duration-ms="870" started-at="2021-11-23T10:24:53Z" finished-at="2021-11-23T10:24:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addnewCustomer status=SUCCESS method=TestSelenium.addnewCustomer()[pri:1, instance:selenium4.latest.TestSelenium@56235b8e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- markTestStatus -->
+        <test-method status="PASS" signature="opentabledemoPage()[pri:2, instance:selenium4.latest.TestSelenium@56235b8e]" name="opentabledemoPage" duration-ms="2747" started-at="2021-11-23T10:24:54Z" finished-at="2021-11-23T10:24:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- opentabledemoPage -->
+        <test-method status="PASS" signature="markTestStatus(org.testng.ITestResult)[pri:0, instance:selenium4.latest.TestSelenium@56235b8e]" name="markTestStatus" is-config="true" duration-ms="704" started-at="2021-11-23T10:24:56Z" finished-at="2021-11-23T10:24:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=opentabledemoPage status=SUCCESS method=TestSelenium.opentabledemoPage()[pri:2, instance:selenium4.latest.TestSelenium@56235b8e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- markTestStatus -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:selenium4.latest.TestSelenium@56235b8e]" name="teardown" is-config="true" duration-ms="1470" started-at="2021-11-23T10:24:57Z" finished-at="2021-11-23T10:24:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- selenium4.latest.TestSelenium -->
+    </test> <!-- Banking Application - Chrome Browser -->
+  </suite> <!-- Selenium 4 Test Suite -->
+</testng-results>

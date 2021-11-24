@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" configfailurepolicy="continue" guice-stage="DEVELOPMENT" name="Failed suite [Selenium 4 Test Suite]" parallel="tests">
+  <test thread-count="2" name="Banking Application - Chrome Browser(failed)" parallel="tests">
+    <parameter name="browser" value="Chrome"/>
+    <parameter name="browserversion" value="latest"/>
+    <classes>
+      <class name="selenium4.latest.TestSelenium">
+        <methods>
+          <include name="addnewCustomer"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="loginbanking"/>
+          <include name="markTestStatus"/>
+          <include name="configBrowserstack"/>
+        </methods>
+      </class> <!-- selenium4.latest.TestSelenium -->
+    </classes>
+  </test> <!-- Banking Application - Chrome Browser(failed) -->
+  <test thread-count="2" name="Banking Application - Edge Browser(failed)" parallel="tests">
+    <parameter name="browser" value="Edge"/>
+    <parameter name="browserversion" value="95"/>
+    <classes>
+      <class name="selenium4.latest.TestSelenium">
+        <methods>
+          <include name="addnewCustomer"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="loginbanking"/>
+          <include name="markTestStatus"/>
+          <include name="configBrowserstack"/>
+        </methods>
+      </class> <!-- selenium4.latest.TestSelenium -->
+    </classes>
+  </test> <!-- Banking Application - Edge Browser(failed) -->
+</suite> <!-- Failed suite [Selenium 4 Test Suite] -->
